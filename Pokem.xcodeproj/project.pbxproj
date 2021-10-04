@@ -14,6 +14,7 @@
 		F8B685E9270A280E00C4086B /* PokemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B685E8270A280E00C4086B /* PokemTests.swift */; };
 		F8B685F3270A280E00C4086B /* PokemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B685F2270A280E00C4086B /* PokemUITests.swift */; };
 		F8B685F5270A280E00C4086B /* PokemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B685F4270A280E00C4086B /* PokemUITestsLaunchTests.swift */; };
+		F8B68602270A296200C4086B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B68601270A296200C4086B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F8B685EE270A280E00C4086B /* PokemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B685F2270A280E00C4086B /* PokemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemUITests.swift; sourceTree = "<group>"; };
 		F8B685F4270A280E00C4086B /* PokemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8B68601270A296200C4086B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B685D7270A280500C4086B /* PokemApp.swift */,
+				F8B68601270A296200C4086B /* ViewModel.swift */,
 				F8B685D9270A280500C4086B /* ContentView.swift */,
 				F8B685DB270A280D00C4086B /* Assets.xcassets */,
 				F8B685DD270A280D00C4086B /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8B685DA270A280500C4086B /* ContentView.swift in Sources */,
+				F8B68602270A296200C4086B /* ViewModel.swift in Sources */,
 				F8B685D8270A280500C4086B /* PokemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
